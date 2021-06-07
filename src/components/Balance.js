@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { GlobalContext } from '../context/GlobalState';
 
+
 //Money formatter function
 function moneyFormatter(num) {
     let p = num.toFixed(2).split('.');
@@ -26,7 +27,7 @@ export const Balance = () => {
 
     return (
         <>
-        <h4>Your Balance</h4>
+        <h2 >Your Balance</h2>
         <h1>{moneyFormatter(total)}</h1>
         </>
     )
