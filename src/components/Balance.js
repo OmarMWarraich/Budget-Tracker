@@ -2,7 +2,7 @@ import React from 'react'
 
 const Balance = () => {
   return (
-    <div alert alert-success>
+    <div className='alert alert-success'>
         <span>Balance: $7000</span>
     </div>
   );
