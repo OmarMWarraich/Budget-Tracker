@@ -1,3 +1,13 @@
+import React from "react";
+import { useReducer } from "react";
+
+const AppReducer = (state, action) => {
+    switch (action.type) {
+        default:
+            return state;
+    }
+};
+
 const initialState = {
     budget: 10000,
     expenses: [
