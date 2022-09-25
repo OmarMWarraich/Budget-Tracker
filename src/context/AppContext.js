@@ -8,3 +8,21 @@ const initialState = {
         {id: 5, name: 'Food', cost: 120},
     ],
 };
+
+export const AppContext = React.createContext();
+
+export const AppProvider = (props) => {
+    const [state, dispatch] = useReducer(AppReducer, initialState);
+
+    return (
+        <AppContext.Provider
+            value={{
+                budget: state.budget,
+                expenses: state.expenses,
+                dispatch,
+            }}
+        >
+            {props.children}
+        </AppContext.Provider>
+    );
+};
