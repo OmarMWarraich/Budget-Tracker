@@ -10,7 +10,7 @@
 
 ## Live Demo 
 
-[Click me!](https://omarmwarraich.github.io/Budget-tracker/ )
+[Click me!](https://budget-tracker-ova.netlify.app)
 
 ## Getting Started
 
