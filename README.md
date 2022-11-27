@@ -7,6 +7,11 @@
 
 - React
 - Context API
+- bootstrap
+- react-icons
+- uuidv4
+- eslint
+- stylelint
 
 ## Live Demo 
 
